@@ -44,8 +44,8 @@
 /*---------------BASIC---------------*/
 .theme-dark {
   --accent-color: #016c80;
-  --background-1: transparent;
-  --background-2: transparent;
+  --background-1: #2e0296;
+  --background-2: #4c27a3;
   --background-accent: #2e0296;
   --border-color: #273034;
 }
