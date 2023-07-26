@@ -47,7 +47,7 @@
   --background-1: #2e0296;
   --background-2: #4c27a3;
   --background-accent: #2e0296;
-  --border-color: #273034;
+  --border-color: #4c27a3;
 }
 /*-------------LIGHT MODE------------*/
 .theme-light {
@@ -70,11 +70,11 @@
   --background-mentioned: transparent;
   --background-mentioned-hover: transparent;
   /* modifiers */
-  --background-modifier-hover: transparent;
-  --background-modifier-active: transparent;
+  --background-modifier-hover: #4c27a3;
+  --background-modifier-active: #4c27a3;
   --background-modifier-selected: var(--accent-color);
-  --background-modifier-accent: transparent;
-  --background-message-hover: transparent;
+  --background-modifier-accent: #4c27a3;
+  --background-message-hover: #4c27a3;
   /* text */
   --text-normal: var(--accent-color);
   --text-positive: var(--text-normal);
