@@ -59,6 +59,22 @@
 }
 /*-------------ADVANCED--------------*/
 .theme-dark {
+  --accent-color: #bde6fb;
+  --background-1: #171d20;
+  --background-2: #1e2529;
+  --background-accent: #1e2529;
+  --border-color: #273034;
+}
+/*-------------LIGHT MODE------------*/
+.theme-light {
+  --accent-color: #22c5fd;
+  --background-1: #ffffff;
+  --background-2: #f5f7fa;
+  --background-accent: var(--background-2);
+  --border-color: transparent;
+}
+/*-------------ADVANCED--------------*/
+.theme-dark {
   /* background */
   --background-primary: var(--background-1);
   --background-primary-alt: var(--background-1);
@@ -67,14 +83,14 @@
   --background-tertiary: var(--background-2);
   --background-accent-gradient: var(--background-2);
   --background-floating: var(--background-1);
-  --background-mentioned: transparent;
-  --background-mentioned-hover: transparent;
+  --background-mentioned: #bde6fb10;
+  --background-mentioned-hover: #bde6fb15;
   /* modifiers */
-  --background-modifier-hover: #4c27a3;
-  --background-modifier-active: #4c27a3;
+  --background-modifier-hover: #262e33;
+  --background-modifier-active: #495a63;
   --background-modifier-selected: var(--accent-color);
-  --background-modifier-accent: #4c27a3;
-  --background-message-hover: #4c27a3;
+  --background-modifier-accent: transparent;
+  --background-message-hover: transparent;
   /* text */
   --text-normal: var(--accent-color);
   --text-positive: var(--text-normal);
@@ -100,7 +116,7 @@
   --button-background-hover: #354249;
   --button-background-active: #4d5f68;
   --button-accent: var(--accent-color);
-  --button-accent-hover: #015b6b;
+  --button-accent-hover: #d2f3ff;
   --button-accent-active: #8dd4f8;
   --button-destructive: #fb7c7c;
   --button-destructive-hover: #ff929b;
